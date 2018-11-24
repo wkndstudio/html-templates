@@ -1,0 +1,19 @@
+:root {
+	--primary-color: red;
+	--secondary-color: blue;
+
+	--text-heading-color: black;
+	--text-body-copy-color: grey;
+	--link-color: yellow;
+
+	--font-family__default: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+	--font-family__heading: 'Lato', -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+	--font-family__body-copy: 'Playfair Display', -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+ 	
+ 	--heading-size: 30px; 
+ 	--body-copy-size: 20px; 
+
+ 	--font-family__heading-size: calc(var(--heading-size) / 1440)vw);
+ 	--font-family__heading-size: calc(var(--body-copy-size) / 1440)vw);
+	
+}

@@ -1,0 +1,29 @@
+.aspect-ratio-box {
+
+  height: 0;
+  overflow: hidden;
+  padding-top: 591.44px / 1127.34px * 100%;
+  background: white;
+  position: relative;
+
+}
+.aspect-ratio-box-inside {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100%;
+}
+
+.flexbox-centering {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.viewport-sizing {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
